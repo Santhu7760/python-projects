@@ -8,7 +8,7 @@ qr=qrcode.QRCode(
     border=2
 )
 
-qr.add_data("hello di!")
+qr.add_data("hello di!") #add your own URL here
 qr.make(fit=True)
 img=qr.make_image(fill_color="red",back_color="black")
 img.save("image.png")
